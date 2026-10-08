@@ -1,5 +1,7 @@
 # A Delegation Harness for Runtime Authorization in Shared LLM Agents
 
+**Student authors:** 姜奕豪 · 邓智元
+
 Technical report, experiment code, synthetic dataset, and result tables for a study of runtime authorization in shared LLM agents.
 
 - [Read the report](paper/paper.md) or [download the PDF](paper/paper.pdf).
