@@ -1,0 +1,11 @@
+authorized_benefit,authorized_completion,authorized_completion_rate,authorized_episodes,committed_effects,condition,confirmation_attempts,eligible_episodes,episodes,families,policy_violations,realized_utility,split,unauthorized_effects,unauthorized_loss,verification_cost
+30,6,0.17647058823529413,34,8,always,8,8,48,4,0,12,development,2,10,8
+30,6,0.17647058823529413,34,8,cost_rule,2,8,48,4,0,18,development,2,10,2
+30,6,0.17647058823529413,34,8,direct,0,8,48,4,0,20,development,2,10,0
+25,5,0.14705882352941177,34,7,fixed_safety,0,8,48,4,2,18,development,2,7,0
+115,23,0.6764705882352942,34,28,no_check,0,8,48,4,20,80,development,5,35,0
+45,9,0.15517241379310345,58,9,always,14,14,96,8,0,31,evaluation,0,0,14
+50,10,0.1724137931034483,58,10,cost_rule,4,14,96,8,0,46,evaluation,0,0,4
+50,10,0.1724137931034483,58,13,direct,0,14,96,8,0,20,evaluation,3,30,0
+35,7,0.1206896551724138,58,10,fixed_safety,0,14,96,8,1,5,evaluation,3,30,0
+155,31,0.5344827586206896,58,44,no_check,0,14,96,8,32,35,evaluation,13,120,0

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "current-theory-experiment"
+version = "0.1.0"
+description = "Finite synthetic authorization and verification experiment"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+authorization-experiment = "authorization_experiment.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

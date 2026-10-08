@@ -1,0 +1,19 @@
+{
+  "execution_cases": {
+    "development": 48,
+    "evaluation": 96
+  },
+  "families": {
+    "development": 4,
+    "evaluation": 8
+  },
+  "input_digest": "1caa56e50cd6a0e9b4bb746773e6d00545078a7d481b62f9bab01cdb23009329",
+  "predictor_logical_calls": 264,
+  "screening_repeats": 1,
+  "seed": 20260915,
+  "truth_digest": "0fa719bd4f58035e590387cda49d37a9bb532be5ca15b1a96e1cf1b41bbb4bde",
+  "verification_cases": {
+    "development": 64,
+    "evaluation": 128
+  }
+}

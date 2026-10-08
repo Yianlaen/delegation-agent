@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+experiments/results/
+experiments/reports/
+!experiments/framework/current_theory/reports/
+.env
+.env.*

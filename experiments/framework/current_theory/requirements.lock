@@ -1,0 +1,2 @@
+# No runtime dependencies. Exact build dependency; Python >=3.10.
+setuptools==80.9.0

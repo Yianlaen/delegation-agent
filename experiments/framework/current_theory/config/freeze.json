@@ -1,0 +1,66 @@
+{
+  "budget": {
+    "callable_logical_upper": 622,
+    "conservative_token_budget": 20992000,
+    "eligible_execution_cases": 22,
+    "executor_logical_episodes": 720,
+    "executor_provider_upper": 354,
+    "max_input_token_bound_per_attempt": 16896,
+    "max_physical_attempts": 1000,
+    "max_response_tokens_per_attempt": 4096,
+    "predictor_logical_calls": 264,
+    "protocol_canary_logical_calls": 4,
+    "wall_seconds": 21600
+  },
+  "created_at": 1790594124.9044914,
+  "denominators": {
+    "development": {
+      "execution_cases": 48,
+      "executor_episodes": 240,
+      "families": 4,
+      "verification_cases": 64
+    },
+    "evaluation": {
+      "execution_cases": 96,
+      "executor_episodes": 480,
+      "families": 8,
+      "verification_cases": 128
+    }
+  },
+  "files": {
+    "../../data/current_theory/development/inputs.jsonl": "02d51edc9939d857838886b400264843ae3d1ac054ffcf46af00fef8b8edbd45",
+    "../../data/current_theory/development/truth.jsonl": "0d4c4f63780d818778bb867be83ab14dda412d5f98c17a79f4420c1482abb7e2",
+    "../../data/current_theory/evaluation_inputs/inputs.jsonl": "495776654d3578adc844f3f46490a6506b1060ab564ffab9f5e60d301e996acc",
+    "../../data/current_theory/evaluation_truth/truth.jsonl": "020ac919cd10ae5917b20a44c40bea76aad6b089e00039fd06b7f9f9d3316e01",
+    "../../data/current_theory/inventory.json": "b7fc813bbd79cd78b7302ad85f656f3da7dce7b4dcf14e391786d0f3ae7f3fb7",
+    "config/study.json": "413a1d9c8e13c7e407845a359661ee535ab3350e99bc21f5998cb6266e94271b",
+    "pyproject.toml": "803a51d924a0aff0fec617962b6034c7c8b8a133bb344de1ea848eac0116e1cb",
+    "requirements.lock": "78c033e37ab89a3aaae692c719a35c113fac85781a261478e2d5004166475603",
+    "run.py": "43259e2713788184a9a5a91e897a85a41e99d23a98f176df01adde895d796ffb",
+    "src/authorization_experiment/__init__.py": "1f24f59eca77d235cf2a581c1e906478a2827158e2bee88c5485501b1f6e897f",
+    "src/authorization_experiment/analysis.py": "b7a77865e76226c57bc7228d0934125f85c98f571b33fa3f8b51375bdbadfd05",
+    "src/authorization_experiment/cli.py": "0ce3cc2b62b67680a71c2a5e14a01093fa12a68a6892827f27bc2367c45a9811",
+    "src/authorization_experiment/data.py": "2c04e395f7dc2287c86252ce422b7c2956596242642bf0118f52ea3eaafe4169",
+    "src/authorization_experiment/http_worker.py": "b9d4d952dbefc7e4f441c3816818f7966b3443940525c4b26e3560c13549d3cb",
+    "src/authorization_experiment/locking.py": "7a05173382e366bae999ee7fc794a02310ffd985fbd3309fafc983284b889820",
+    "src/authorization_experiment/paths.py": "63d1634ff328991fbcb164773f3b74a07b4487a5f02a26d493403770c78ab02e",
+    "src/authorization_experiment/provider.py": "da36331424c7bc72e367badd6580c93a919decdfa7e1a69b84aedeb6aaf53be1",
+    "src/authorization_experiment/runner.py": "cf27f6632f53990268f3cabf331dbb05a7222df20058d00b30253cc8b55c5f8b",
+    "src/authorization_experiment/runtime.py": "04b360c09256640c4d4c27da6683369f9e2b599856d64fe803d1f578fcd60919",
+    "src/authorization_experiment/sandbox.py": "269566230bb2a67796bcb2950942280f39205882ce7812172dfc50161f210105",
+    "src/authorization_experiment/scoring.py": "ff10900c3792ca6381ac4745b47129b8323770dd6dd04514b38debf03f039817",
+    "src/authorization_experiment/simulation.py": "0333efb48732cc7aed85e1f510f469c62167847964103ab5ddc69cf87ca5e424",
+    "tests/test_conformance.py": "fec6d169dba741863a75536a83640421da36912e798449d08f6691e04f0190cd",
+    "tests/test_http_deadline.py": "75b0d3892f1958884c466034751ca65f216bda8a431d756d54f5f65dca98bd45",
+    "tests/test_pipeline.py": "3bd86075eaec25a8a8c2c487732e27eb1c015ea78416df2f76fe32a8e5f788cd",
+    "tests/test_provider.py": "2297d1066e696f442e0c789d9e0f2c6763ebd3f71f25919d41c6bf1ed0bb530e",
+    "tests/test_successor.py": "6ad1bd174ac6b3883c5c7395a8583e593726fbf097fad492313c033fc83530ca"
+  },
+  "schema": "current-theory-public-freeze-v1",
+  "tests": {
+    "provider_calls": 0,
+    "returncode": 0,
+    "test_count": 45
+  },
+  "theory_sha": "897ff03006e5c26a58f920356b892556d18acffe"
+}
