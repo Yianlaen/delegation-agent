@@ -1,6 +1,10 @@
-# A Delegation Harness for Runtime Authorization in Shared LLM Agents
+---
+author:
+  - Yihao Jiang
+  - Zhiyuan Deng
+---
 
-**Student authors:** 姜奕豪 · 邓智元
+# A Delegation Harness for Runtime Authorization in Shared LLM Agents
 
 ## Abstract
 
